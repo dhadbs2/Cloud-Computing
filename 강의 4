@@ -1,0 +1,11 @@
+1. Service Model
+Infrastructure as a Service : 도구만 주어짐, 새로 컴퓨터 하나 구매하는 개념, IT 기본 자원만 제공
+Platform as a Service : 재료와 도구만 주어짐 (app service), 개발자 대상으로함, ex. google app engine
+Softwate as a Service : 아예 조리가 됨(ex. 네이버 클라우드, 구글 드라이브)
+On Premise : 모든걸 알아서 해야함
+
+2. Deployment Model
+Public Cloud 누구든 사용한 만큼
+Private Cloud
+Hybrid Cloud 여러개 클라우드의 조합
+Community Cloud 한정된 몇개의 기업과 기관들
