@@ -1,0 +1,45 @@
+1. Data Center(데이터 센터): 수많은 서버들을 한 데 모아 네트워크로 연결해 놓은 시설
+IDC - Internet Data Center
+CDC - Cloud Data Center
+Server Hotel
+Data Center는 Cloud의 토대, Cloud 산업이 커질 수록 더 많은 Data Center가 구축되는 중
+Rack(랙) - 서버 또는 네트워크 장비들이 들어가는 프레임
+랙 마운트 형 서버 - 랙 안의 층 들이 하나의 서버
+Data Center에서 중요한 관리 포인트는 발열 관리
+Facebook은 추운 날씨의 스웨덴에 Data Center를 설립
+Naver는 NAMU라는 벽에 찬물을 흐르게 하고 바람을 통하게 하여 기화작용으로 온도를 낮추는 기술 사용
+
+2. Region(지역)
+Data Center가 위치한 지역, 일반적으로 도시를 지칭
+IT 리소스를 생성할 Region은 선택 가능, 한국에서도 전세계 데이터 센터의 자원을 생성 가능
+Region 선택은 서비스 성능에 큰 영향을 미침, 대상 고객의 지역과 자원 생성할 Region이 최대한 가까워야 함
+한국 고객 대상으로 서비스 하려면 서울 Region에 자원 생성
+Cloud 사업자 선택시 서비스 대상 국가에 Region 선택이 가능한 지 확인 필요
+자원 사용 비용이 Region 마다 상이 함 지대, 세금 등이 국가 마다 차이 있음
+
+3. Availability Zone(가용 영역)
+하나의 Region은 두 개 이상의 Availability Zone으로 구성 됨, Availability Zone은 가용 영역이라고도
+불리며 줄여서 AZ로 표시, 하나의 AZ는 하나의 Data Center
+Availability(가용성): 시스템이 정삭적으로 가동 되는 상태
+
+서비스를 단일 Data Center(AZ)에서만 운영하면
+지진, 번개, 정전 등으로 Data Center(AZ) 장애 가능
+서비스는 해당 Data Center(AZ)가 복구 될 때까지 접속 불가
+Availability 낮음
+
+서비스를 다수의 Data Center(AZ)에 분산하여 운영하면 특정 Data Center에 문제가 생겨도 다른 Data Center
+접속 가능 
+Availability 높음
+
+AZ는 장애에 대해 Availability를 높이기 위한 장치, 하나의 Region 내에서 다수의 AZ에 서비스 분산하여 높은
+Availability 만족
+
+4. Virtualization(가상화)
+가상화는 소프트웨어로 가상의 하드웨어를 생성하는 기술
+가상의 하드웨어는 VM - Virtual Machine
+Cloud 서비스에서 서버를 사용할 때, 일반적으로 물리적인 하나의 서버가 아닌 가상화 된 서버를 제공 받음
+
+
+
+
+
