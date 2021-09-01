@@ -1,0 +1,64 @@
+1. EC2
+Elastic Cloud Computer
+AWS의 가장 기본적인 자원 - 리눅스 서버, 윈도우 서버
+가상 머신 상에 OS설치 되어 있는 형태
+
+2. EC2 인스턴스
+https://aws.amazon.com/ko/ec2/instance-types/?trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_KR&sc_publisher=Google&sc_category=Cloud%20Computing&sc_country=KR&sc_geo=APAC&sc_outcome=acq&sc_detail=aws%20ec2%20instance%20types&sc_content={ad%20group}&sc_matchtype=e&sc_segment=489215167915&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Cloud%20Computing|EC2|KR|EN|Sitelink&s_kwcid=AL!4422!3!489215167915!e!!g!!aws%20ec2%20instance%20types&ef_id=CjwKCAjwybyJBhBwEiwAvz4G75016pop0AoEiiKI01Ok4Ud9bkuDiXWUbofCILWWIM-OpINYBCbbYhoC5ysQAvD_BwE:G:s&s_kwcid=AL!4422!3!489215167915!e!!g!!aws%20ec2%20instance%20types
+서버하나가 만들어진 상태
+CPU, Memory,Storage,Network 성능에 따라 다양한 인스턴스 타입이 존재
+범용인스턴스
+컴퓨팅 최적화 인스턴스
+메모리 최적화 인스턴스
+GPU 가속 인스턴스
+
+3. EC2 가격 정책
+https://aws.amazon.com/ko/ec2/pricing/?trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_KR&sc_publisher=Google&sc_category=Cloud%20Computing&sc_country=KR&sc_geo=APAC&sc_outcome=acq&sc_detail=aws%20ec2%20instance%20types&sc_content={ad%20group}&sc_matchtype=e&sc_segment=489215167915&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Cloud%20Computing|EC2|KR|EN|Sitelink&s_kwcid=AL!4422!3!489215167915!e!!g!!aws%20ec2%20instance%20types&ef_id=CjwKCAjwybyJBhBwEiwAvz4G7xXbDiO_hSa4kVkJFF_blnrDzxV5usF8N8-0jGwTyV9sXJb-tdiH3BoCRdgQAvD_BwE:G:s&s_kwcid=AL!4422!3!489215167915!e!!g!!aws%20ec2%20instance%20types
+
+4. AMI
+Amanzon Machine Image
+가상머신은 Image를 활용하여 생성
+이미지 - OS, 설치 된 프로그램, 설정 등이 포함 된 파일
+이미지를 가상 서버에 적용하여 동일한 환경을 구성 가능
+Pre-Configured OS라고 이해할 수 있음
+
+5. Security Group
+EC2 인스턴스에 대한 보안 설정
+default로 EC2는 모든 Port가 막혀 있음
+inbound, outbound에 대해 접속 허용 설정 가능
+어떤 Port를 접속 허용 할지 설정
+접속 허용 할 Source 설정
+
+6. Key Pair
+EC2 인스턴스에 접속하기 위한 암호화된 파일
+AWS 처음 사용 시 새로운 Key Pair 생성 해야 함
+Key Pair는 타인과 공유하면 안됨
+Mac 환경에서는 pem 사용 가능, 윈도우 환경에서는 ppk로 변환 필요
+
+7. 인스턴스의 상태 
+EC2 인스턴스를 생성하면 실행 상태
+인스턴스를 중지 가능 -> 재실행 가능
+인스턴스 종료(Terminate)하면 인스턴스가 삭제 됨
+
+8. Elastic IP
+EC2 인스턴스는 Private IP와 Public IP를 보유
+기본적으로 할당되는 Public IP는 인스턴스 재실행 후에는 변경됨
+영구적인 Public IP를 설정하려면 Elastic IP사용
+Elastic IP는 실행중인 인스턴스에 연동하여 사용하면 무료
+-생성 후 사용하지 않은 경우 비용 발생
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
